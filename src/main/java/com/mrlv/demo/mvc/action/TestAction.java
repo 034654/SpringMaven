@@ -1,4 +1,4 @@
-package java.com.mrlv.demo.mvc.action;
+package com.mrlv.demo.mvc.action;
 
 
 public class TestAction {

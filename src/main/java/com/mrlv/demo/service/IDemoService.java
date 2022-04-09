@@ -1,4 +1,4 @@
-package java.com.mrlv.demo.service;
+package com.mrlv.demo.service;
 
 
 public interface IDemoService {

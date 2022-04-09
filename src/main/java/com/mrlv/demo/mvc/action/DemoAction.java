@@ -1,5 +1,6 @@
 package com.mrlv.demo.mvc.action;
 
+import com.mrlv.demo.service.IDemoService;
 import com.mrlv.mvcframework.annotation.MrAutowired;
 import com.mrlv.mvcframework.annotation.MrController;
 import com.mrlv.mvcframework.annotation.MrRequestMapping;
@@ -15,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 @MrRequestMapping("/demo")
 public class DemoAction {
 
-  	@MrAutowired private java.com.mrlv.demo.service.IDemoService demoService;
+  	@MrAutowired private IDemoService demoService;
 
 	@MrRequestMapping("/query.*")
 	public void query(HttpServletRequest req, HttpServletResponse resp,

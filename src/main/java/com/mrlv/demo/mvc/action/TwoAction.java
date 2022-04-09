@@ -1,6 +1,7 @@
-package java.com.mrlv.demo.mvc.action;
+package com.mrlv.demo.mvc.action;
 
-import java.com.mrlv.demo.service.IDemoService;
+import com.mrlv.demo.service.IDemoService;
+
 import java.io.IOException;
 
 import javax.servlet.http.HttpServletRequest;

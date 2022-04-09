@@ -1,4 +1,4 @@
-package java.com.mrlv.demo.service.impl;
+package com.mrlv.demo.service.impl;
 
 /**
  * 核心业务逻辑
